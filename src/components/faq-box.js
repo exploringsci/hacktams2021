@@ -15,14 +15,14 @@ class FAQBox extends Component {
             className={'faqbox' + (this.state.open ? ' open' : '')}
             onClick={() => this.setState({ open: !this.state.open })}
         >
-            <p className="question" style={{ margin: 0, fontFamily: "'Arial'" }}>
-                <b>{this.props.question}</b>
+            <p className="question" style={{ margin: 0, fontFamily: "'Grandstander'" }}>
+                {this.props.question}
             </p>
             {this.state.open ? (
                 <p
                     className="answer"
                     dangerouslySetInnerHTML={{ __html: this.props.answer }}
-                    style={{ lineHeight: '1.4em', fontSize: '1.2em', fontFamily: "'Arial'" }}
+                    style={{ lineHeight: '1.4em', fontSize: '1.2em' }}
                 ></p>
             ) : null}
         </div>

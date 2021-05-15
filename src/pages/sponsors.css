@@ -3,9 +3,9 @@
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
-    padding-top: 1rem;
     overflow: hidden;
-    margin: 5rem 15vw;
+    padding: 5rem 15vw;
+    background-color: #171717;
 }
 
 .sponsor {

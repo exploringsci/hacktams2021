@@ -6,8 +6,8 @@ import './sponsors.css';
 class Sponsors extends React.Component {
     render() {
         return (
-            <div className="sponsors" >
-                <h2>Our Sponsors</h2>
+            <div className="sponsors">
+                <h1>Our Sponsors</h1>
                 <div className="break"></div>
                 <img src={Frame} alt="Frame" className="sponsor large" />
                 <div className="break"></div>
@@ -17,7 +17,7 @@ class Sponsors extends React.Component {
                 <img src={Frame} alt="Frame" className="sponsor small" />
                 <img src={Frame} alt="Frame" className="sponsor small" />
                 <img src={Frame} alt="Frame" className="sponsor small" />
-            </div >
+            </div>
         );
     }
 }

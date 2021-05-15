@@ -1,7 +1,18 @@
-.wrap {
-    margin: 5rem 15vw;
+.faq {
+    padding: 5rem 15vw;
+    background-color: #212121;
 }
 
-all {
-    font-family: 'Arial';
+.faq-dropdown-button-container {
+    background-color: lightgray;
+}
+
+.faq-dropdown-section {
+    background-color: rgb(31, 77, 31);
+    color: white;
+}
+
+.closed {
+    height: 0px;
+    background-color: black;
 }

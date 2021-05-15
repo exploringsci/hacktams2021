@@ -1,21 +1,18 @@
 .faqbox {
     width: calc(100% - 30px);
-    background: #120063;
+    background: #c55dc3;
     padding: 5px;
-    border: #000000 solid 10px;
+    border: #c55dc3 solid 10px;
     margin: 10px 0;
     color: #fff;
     transition: max-height 0.6s;
-    transition: background-color 0.6s;
     max-height: 30px;
     overflow: hidden;
     cursor: pointer;
-    font-family: 'Arial, Helvetica, sans-serif';
 }
 
 .faqbox.open {
     max-height: 500px;
-    background-color: green;
 }
 
 .question {
@@ -23,5 +20,5 @@
 }
 
 .answer {
-    font-family: 'Arial, Helvetica, sans-serif';
+    font-family: 'Grandstander';
 }

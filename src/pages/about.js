@@ -18,7 +18,7 @@ class About extends React.Component {
     render() {
         return (
             <div className="about">
-                <h2>About</h2>
+                <h1>About</h1>
                 <p>
                     hackTAMS is an annual hackathon organized by students at the Texas Academy of Mathematics and
                     Science. Our event brings high school students from across the DFW area to showcase their talent and

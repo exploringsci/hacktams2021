@@ -1,22 +1,17 @@
-p {
-    color: white;
-}
-
 .home {
     padding: 5rem 15vw;
 
     height: calc(100vh - 10rem);
     display: flex;
     justify-content: center;
-    
-    background: linear-gradient(black 5%, rgb(71, 1, 169) 50%, rgb(148, 0, 203) 80%);
-}
 
+    background: linear-gradient(black 5%, #4701a9 50%, #9400cb 80%);
+}
 
 .home-title {
     margin: 0;
     font-family: var(--title-font);
-    font-size: 10rem;
+    font-size: 6rem;
 }
 
 .home-container {
@@ -31,16 +26,18 @@ p {
     width: 10rem;
     margin: 1rem;
     margin-bottom: 0.5rem;
-    border: 0.25rem solid black;
+    padding: 0.1rem;
+    border: 0.2rem solid #202020;
     border-radius: 0.5rem;
 
-    font-family: var(--title-font);
-    font-size: 1.5rem;
-    background-color: #ddd;
+    font-weight: 700;
+    font-size: 1.3rem;
+    background-color: #4a4a4a;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .home-register:hover {
-    background-color: #ddd;
+    box-shadow: 0 0 0.5rem 0.05rem #dddddd;
+    border: 0.2rem solid #303030;
 }
-

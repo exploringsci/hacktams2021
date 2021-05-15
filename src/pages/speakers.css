@@ -1,10 +1,7 @@
-p {
-    text-align: center;
-}
-
 .speakers {
-    margin: 5rem 15vw;
-    color: white;
+    padding: 5rem 15vw;
+    background-color: #2e2e2e;
+    text-align: center;
 }
 
 .speakers-container {

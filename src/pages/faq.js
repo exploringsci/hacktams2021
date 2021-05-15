@@ -1,17 +1,19 @@
 import React from 'react';
-import faqs from '../data/faqData.json';
+import data from '../data/faqData.json';
 import FAQBox from '../components/faq-box';
 import './faq.css';
 
-const FAQ = (props) => (
-    <section>
-        <div className="wrap">
-            <h2>FAQs</h2>
-            {faqs.map((v) => (
-                <FAQBox question={v.question} answer={v.answer} />
-            ))}
-        </div>
-    </section>
-);
+class FAQ extends React.Component {
+    render() {
+        return (
+            <div className="faq">
+                <h1>FAQ</h1>
+                {data.map((v) => (
+                    <FAQBox key={v.question} question={v.question} answer={v.answer} />
+                ))}
+            </div>
+        );
+    }
+}
 
 export default FAQ;

@@ -22,10 +22,14 @@ class App extends React.Component {
             <div className="app">
                 <Home reference={this.home} />
                 <About reference={this.about} />
+                <div className="section-break sb1" />
                 <Speakers reference={this.speakers} />
+                <div className="section-break sb2" />
                 <FAQ reference={this.faq} />
+                <div className="section-break sb3" />
                 <Sponsors reference={this.sponsors} />
-                <Footer reference={this.contact} />
+                <div className="section-break sb4" />
+                <Footer reference={this.footer} />
             </div>
         );
     }

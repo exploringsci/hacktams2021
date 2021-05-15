@@ -1,9 +1,7 @@
-p {
-    text-align: center;
-}
-
 .about {
-    margin: 5rem 15vw;
+    padding: 5rem 15vw;
+    background-color: #3a3a3a;
+    text-align: center;
 }
 
 .tracks-container {

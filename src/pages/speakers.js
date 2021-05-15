@@ -20,15 +20,17 @@ class Speakers extends React.Component {
     };
 
     render() {
+        const speakers = this.createSpeakers();
+
         return (
             <div className="speakers">
-                <h2>Speakers</h2>
+                <h1>Speakers</h1>
                 <p>
                     Coming soon! Please email <a href="mailto: team@hacktams.org">team@hacktams.org</a> if you are
                     interested in speaking at our event!
                 </p>
                 <div className="speakers-container">
-                    <div className="speakers-menu">{this.createSpeakers}</div>
+                    <div className="speakers-menu">{speakers}</div>
                     <div className="speakers-display">
                         <div className="speakers-screen"></div>
                     </div>
